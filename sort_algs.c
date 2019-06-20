@@ -310,9 +310,7 @@ int main() {
   gettimeofday(&t2, NULL);
   printf("\nradix sort executed in %lu microsec\n", t2.tv_usec- t1.tv_usec);
 
-  // some sorting algorithms on this size are so fast
-  // that the execution time calculated is occasionally
-  // 0 microseconds
+  // some sorting algorithms are so fast on this array size that their execution time is occasionally displayed as 0 microseconds
 
   printf("\n");
   return 0;
